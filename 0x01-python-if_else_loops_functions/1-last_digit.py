@@ -5,7 +5,7 @@ if number < 0:
 reminder = number % -10
 else:
 reminder = number % 10
-print('Last digit of' number 'is' remainder, end=' ')
+print('Last digit of' number, 'is', remainder, end=' ')
 if number > 5:
 print('and is greater than 5')
 elif number == 0:
